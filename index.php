@@ -61,9 +61,6 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </div>
-
 
             <div class="modulo vermelho">
                     <h3>Tipos</h3>
@@ -142,14 +139,15 @@
                         </li>
                     </ul>
                 </div>
-    </main>
+                </nav>
+        </div>
+    
     <footer class="rodape">
         <?=
             date_default_timezone_set('America/Sao_Paulo');
         ?>
         /*
         COD3R & ALUNOS © <?= date('Y'); ?>
-        */
     </footer>
 </body>
 </html>
