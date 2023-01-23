@@ -25,6 +25,10 @@
         </div>
     </main>
     <footer class="rodape">
+        <?=
+            date_default_timezone_set('America/Sao_Paulo');
+        ?>
+        /*
         COD3R & ALUNOS © <?= date('Y'); ?>
     </footer>
 </body>
